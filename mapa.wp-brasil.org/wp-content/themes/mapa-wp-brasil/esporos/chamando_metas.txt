@@ -1,0 +1,9 @@
+// como chamar os custom meta box labels
+
+				<?php $my_meta = get_post_meta($post->ID,'_my_meta',TRUE); ?>
+				<div id="info-evento" class="archive">
+				<h1 class="negrito">Endere&ccedil;o:</h1>
+                <p class="archive"><?php echo $my_meta['ag_endereco']; ?></p>
+				<h1 class="negrito">Hor&aacute;rio:</h1>
+                <p class="archive"><?php echo $my_meta['ag_hora']; ?></p>
+				</div>
