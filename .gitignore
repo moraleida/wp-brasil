@@ -1,0 +1,26 @@
+# WordPress
+.htaccess
+wp-config.php
+uploads/
+upgrade/
+
+# WordPress Dev Plugins
+debug-bar/
+debug-bar-cron/
+
+# Mac
+.DS_Store/
+
+# Sublime
+*.sublime-*
+
+# Eclipse
+.buildpath
+.project
+.settings/
+catraca-files-producao/
+
+# Vi
+*~
+*.swp
+*.swo
