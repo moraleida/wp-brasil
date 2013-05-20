@@ -7658,4 +7658,1732 @@ msgid "Invalid plugin page"
 msgstr "Página do plugin inválida"
 
 #: wp-admin/admin.php:157
-msgid "Cannot l
+msgid "Cannot load %s."
+msgstr "Não é possível carregar %s."
+
+#: wp-admin/admin.php:178
+msgid "You are not allowed to import."
+msgstr "Sem permissão para importar."
+
+#: wp-admin/admin.php:194 wp-admin/import.php:17 wp-admin/menu.php:203
+msgid "Import"
+msgstr "Importar"
+
+#: wp-admin/async-upload.php:49 wp-admin/post.php:142
+msgid "Unknown post type."
+msgstr "Tipo de post desconhecido."
+
+#: wp-admin/async-upload.php:52 wp-admin/edit-tags.php:253
+#: wp-admin/post.php:145
+msgid "You are not allowed to edit this item."
+msgstr "Sem permissão para editar este item."
+
+#: wp-admin/async-upload.php:58
+msgctxt "media item"
+msgid "Edit"
+msgstr "Editar"
+
+#: wp-admin/async-upload.php:87
+msgid "&#8220;%s&#8221; has failed to upload due to an error"
+msgstr "O upload de &#8220;%s&#8221; falhou devido a um erro"
+
+#: wp-admin/comment.php:46 wp-admin/edit-form-comment.php:17
+msgid "Edit Comment"
+msgstr "Editar comentário"
+
+#: wp-admin/comment.php:50 wp-admin/custom-background.php:88
+#: wp-admin/custom-header.php:106 wp-admin/edit-comments.php:116
+#: wp-admin/edit-form-advanced.php:217 wp-admin/edit-link-form.php:44
+#: wp-admin/edit-tags.php:204 wp-admin/edit.php:154 wp-admin/edit.php:199
+#: wp-admin/export.php:48 wp-admin/import.php:21
+#: wp-admin/includes/screen.php:781 wp-admin/index.php:46
+#: wp-admin/link-manager.php:45 wp-admin/media-new.php:45 wp-admin/media.php:73
+#: wp-admin/my-sites.php:40 wp-admin/nav-menus.php:439
+#: wp-admin/options-discussion.php:20 wp-admin/options-general.php:73
+#: wp-admin/options-media.php:28 wp-admin/options-permalink.php:20
+#: wp-admin/options-reading.php:55 wp-admin/options-writing.php:20
+#: wp-admin/plugin-editor.php:116 wp-admin/plugin-install.php:40
+#: wp-admin/plugins.php:340 wp-admin/theme-editor.php:25
+#: wp-admin/theme-install.php:46 wp-admin/themes.php:49
+#: wp-admin/update-core.php:407 wp-admin/upload.php:152
+#: wp-admin/user-edit.php:47 wp-admin/user-new.php:159 wp-admin/users.php:25
+#: wp-admin/widgets.php:44
+msgid "Overview"
+msgstr "Visão Geral"
+
+#: wp-admin/comment.php:52
+msgid "You can edit the information left in a comment if needed. This is often useful when you notice that a commenter has made a typographical error."
+msgstr "Você pode editar a informação deixada em um comentário se necessário. Isto é sempre útil quando você notar que um comentarista cometeu um erro de digitação."
+
+#: wp-admin/comment.php:53
+msgid "You can also moderate the comment from this screen using the Status box, where you can also change the timestamp of the comment."
+msgstr "Você também pode moderar o comentário a partir desta tela usando a caixa Status, onde você também pode alterar a hora do comentário."
+
+#: wp-admin/comment.php:57 wp-admin/custom-background.php:97
+#: wp-admin/custom-header.php:132 wp-admin/edit-comments.php:132
+#: wp-admin/edit-form-advanced.php:194 wp-admin/edit-form-advanced.php:209
+#: wp-admin/edit-form-advanced.php:226 wp-admin/edit-link-form.php:52
+#: wp-admin/edit-tags.php:234 wp-admin/edit.php:191 wp-admin/edit.php:212
+#: wp-admin/export.php:54 wp-admin/import.php:27 wp-admin/index.php:99
+#: wp-admin/link-manager.php:59 wp-admin/media-new.php:55 wp-admin/media.php:82
+#: wp-admin/my-sites.php:47 wp-admin/nav-menus.php:453
+#: wp-admin/options-discussion.php:26 wp-admin/options-general.php:78
+#: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
+#: wp-admin/options-reading.php:70 wp-admin/options-writing.php:48
+#: wp-admin/plugin-editor.php:127 wp-admin/plugin-install.php:55
+#: wp-admin/plugins.php:354 wp-admin/theme-editor.php:38
+#: wp-admin/theme-install.php:61 wp-admin/themes.php:86 wp-admin/tools.php:27
+#: wp-admin/update-core.php:422 wp-admin/upload.php:171
+#: wp-admin/user-edit.php:52 wp-admin/user-new.php:177 wp-admin/users.php:60
+#: wp-admin/widgets.php:66
+msgid "For more information:"
+msgstr "Para mais informações:"
+
+#: wp-admin/comment.php:58 wp-admin/edit-comments.php:133
+msgid "<a href=\"http://codex.wordpress.org/Administration_Screens#Comments\" target=\"_blank\">Documentation on Comments</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Comentários\" target=\"_blank\">Documentação sobre Comentários</a>"
+
+#: wp-admin/comment.php:59 wp-admin/custom-background.php:99
+#: wp-admin/custom-header.php:134 wp-admin/edit-comments.php:136
+#: wp-admin/edit-form-advanced.php:196 wp-admin/edit-form-advanced.php:212
+#: wp-admin/edit-form-advanced.php:228 wp-admin/edit-link-form.php:54
+#: wp-admin/edit-tags.php:243 wp-admin/edit.php:193 wp-admin/edit.php:214
+#: wp-admin/export.php:56 wp-admin/import.php:29 wp-admin/index.php:101
+#: wp-admin/link-manager.php:61 wp-admin/media-new.php:57 wp-admin/media.php:84
+#: wp-admin/my-sites.php:49 wp-admin/nav-menus.php:455
+#: wp-admin/options-discussion.php:28 wp-admin/options-general.php:80
+#: wp-admin/options-media.php:35 wp-admin/options-permalink.php:46
+#: wp-admin/options-reading.php:72 wp-admin/options-writing.php:50
+#: wp-admin/plugin-editor.php:130 wp-admin/plugin-install.php:57
+#: wp-admin/plugins.php:356 wp-admin/theme-editor.php:43
+#: wp-admin/theme-install.php:63 wp-admin/themes.php:88 wp-admin/tools.php:29
+#: wp-admin/update-core.php:424 wp-admin/upload.php:173
+#: wp-admin/user-edit.php:54 wp-admin/user-new.php:179 wp-admin/users.php:63
+#: wp-admin/widgets.php:68
+msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"http://br.forums.wordpress.org/\" target=\"_blank\">Fóruns de Suporte</a>"
+
+#: wp-admin/comment.php:68 wp-admin/comment.php:222
+#: wp-admin/edit-comments.php:165
+msgid "Oops, no comment with this ID."
+msgstr "Opa, não existe comentário com esta ID."
+
+#: wp-admin/comment.php:68 wp-admin/comment.php:222
+msgid "Go back"
+msgstr "Voltar"
+
+#: wp-admin/comment.php:71
+msgid "You are not allowed to edit this comment."
+msgstr "Sem permissão para editar esse comentário."
+
+#: wp-admin/comment.php:74
+msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
+msgstr "Este comentário está na Lixeira. Remova da Lixeira se quiser editá-lo."
+
+#: wp-admin/comment.php:87
+msgid "Moderate Comment"
+msgstr "Moderar comentário"
+
+#: wp-admin/comment.php:124
+msgid "You are about to mark the following comment as spam:"
+msgstr "Você está prestes a marcar o seguinte comentário como spam:"
+
+#: wp-admin/comment.php:125
+msgid "Spam Comment"
+msgstr "Marcar como spam"
+
+#: wp-admin/comment.php:128
+msgid "You are about to move the following comment to the Trash:"
+msgstr "Você está prestes a mover o seguinte comentário para a Lixeira:"
+
+#: wp-admin/comment.php:129
+msgid "Trash Comment"
+msgstr "Mover para Lixeira"
+
+#: wp-admin/comment.php:132
+msgid "You are about to delete the following comment:"
+msgstr "Você está prestes a excluir este comentário:"
+
+#: wp-admin/comment.php:133
+msgid "Permanently Delete Comment"
+msgstr "Excluir comentário permanentemente"
+
+#: wp-admin/comment.php:136
+msgid "You are about to approve the following comment:"
+msgstr "Você está prestes a aprovar o seguinte comentário:"
+
+#: wp-admin/comment.php:137
+msgid "Approve Comment"
+msgstr "Aprovar comentário"
+
+#: wp-admin/comment.php:145
+msgid "This comment is currently approved."
+msgstr "Atualmente este comentário está aprovado."
+
+#: wp-admin/comment.php:148
+msgid "This comment is currently marked as spam."
+msgstr "Atualmente este comentário está marcado como spam."
+
+#: wp-admin/comment.php:151
+msgid "This comment is currently in the Trash."
+msgstr "Atualmente este comentário está na Lixeira."
+
+#: wp-admin/comment.php:158 wp-admin/plugins.php:266
+#: wp-admin/theme-editor.php:218
+msgid "Caution:"
+msgstr "Cuidado:"
+
+#: wp-admin/comment.php:224 wp-admin/edit-comments.php:168
+#: wp-admin/includes/comment.php:37
+msgid "You are not allowed to edit comments on this post."
+msgstr "Sem permissão para editar os comentários deste post."
+
+#: wp-admin/comment.php:289
+msgid "Unknown action."
+msgstr "Ação desconhecida."
+
+#: wp-admin/credits.php:74
+msgid "WordPress is created by a <a href=\"%1$s\">worldwide team</a> of passionate individuals. <a href=\"%2$s\">Get involved in WordPress</a>."
+msgstr "O WordPress é criado por uma <a href=\"%1$s\">equipe mundial</a> de pessoas apaixonadas. <a href=\"%2$s\">Envolva-se com o WordPress</a>."
+
+#: wp-admin/credits.php:77 wp-admin/credits.php:134
+msgid "http://codex.wordpress.org/Contributing_to_WordPress"
+msgstr "http://codex.wordpress.org/pt-br:Contribuindo_com_o_WordPress"
+
+#: wp-admin/credits.php:82
+msgid "WordPress is created by a worldwide team of passionate individuals."
+msgstr "O WordPress é criado por uma equipe mundial de pessoas apaixonadas."
+
+#: wp-admin/credits.php:90
+msgctxt "Translate this to be the equivalent of English Translators in your language for the credits page Translators section"
+msgid "Translators"
+msgstr "Tradutores"
+
+#: wp-admin/credits.php:132
+msgid "Want to see your name in lights on this page? <a href=\"%s\">Get involved in WordPress</a>."
+msgstr "Quer ver seu nome destacado nesta página? <a href=\"%s\">Envolva-se com o WordPress</a>."
+
+#: wp-admin/credits.php:144
+msgid "Project Leaders"
+msgstr "Líderes do Projeto"
+
+#: wp-admin/credits.php:145
+msgid "Extended Core Team"
+msgstr "Equipe Extendida do <i>Core</i> (parte principal do WordPress, excluindo temas e plugins)"
+
+#: wp-admin/credits.php:146
+msgid "Core Developers"
+msgstr "Desenvolvedores do <i>Core</i> (parte principal do WordPress, excluindo temas e plugins)"
+
+#: wp-admin/credits.php:147
+msgid "Recent Rockstars"
+msgstr "Rockstars Recentes"
+
+#: wp-admin/credits.php:148
+msgid "Core Contributors to WordPress %s"
+msgstr "Contribuidores do Core do WordPress %s"
+
+#: wp-admin/credits.php:149
+msgid "Contributing Developers"
+msgstr "Desenvolvedores que também contribuem"
+
+#: wp-admin/credits.php:150
+msgid "Cofounder, Project Lead"
+msgstr "Co-fundador, Líder do Projeto"
+
+#: wp-admin/credits.php:151
+msgid "Lead Developer"
+msgstr "Desenvolvedor Líder"
+
+#: wp-admin/credits.php:152
+msgid "User Experience Lead"
+msgstr "Líder da Experiência do Usuário"
+
+#: wp-admin/credits.php:153
+msgid "Core Developer"
+msgstr "Desenvolvedor do Core"
+
+#: wp-admin/credits.php:154
+msgid "Core Committer"
+msgstr "<i>Committer (pessoa com permissão para editar o código)</i> do Core"
+
+#: wp-admin/credits.php:155
+msgid "Guest Committer"
+msgstr "Commiter Convidado"
+
+#: wp-admin/credits.php:156
+msgid "Developer"
+msgstr "Desenvolvedor"
+
+#: wp-admin/credits.php:157
+msgid "Designer"
+msgstr "Designer"
+
+#: wp-admin/credits.php:158
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: wp-admin/credits.php:159
+msgid "Internationalization"
+msgstr "Internacionalização"
+
+#: wp-admin/credits.php:161
+msgid "Icon Design"
+msgstr "Design de Ícones"
+
+#: wp-admin/custom-background.php:90
+msgid "You can customize the look of your site without touching any of your theme&#8217;s code by using a custom background. Your background can be an image or a color."
+msgstr "Você pode personalizar a aparência de seu site sem tocar em qualquer código do tema, usando um fundo personalizado. O seu fundo pode ser uma imagem ou uma cor."
+
+#: wp-admin/custom-background.php:91
+msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
+msgstr "Para usar uma imagem de fundo, apenas faça o upload dela ou escolha uma imagem já existente na sua Biblioteca de Mídia clicando no botão &#8220;Escolher imagem&#8221;. Você pode exibir uma única instância de sua imagem, ou repeti-la para preencher a tela. Você pode deixar o fundo fixo no lugar, assim o conteúdo do seu site se moverá sobre ele, ou você pode deixá-lo rolar com o site."
+
+#: wp-admin/custom-background.php:92
+msgid "You can also choose a background color by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
+msgstr "Você também pode escolher uma cor de fundo clicando no botão Selecionar Cor e digitar um valor de HTML hexadecimal legítimo, ex. &#8220;#ff0000&#8221; para vermelho, ou escolhendo uma cor usando o seletor de cor."
+
+#: wp-admin/custom-background.php:93
+msgid "Don&#8217;t forget to click on the Save Changes button when you are finished."
+msgstr "Não esqueça de clicar no botão Salvar alterações quando tiver terminado."
+
+#: wp-admin/custom-background.php:98
+msgid "<a href=\"http://codex.wordpress.org/Appearance_Background_Screen\" target=\"_blank\">Documentation on Custom Background</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Fundo\" target=\"_blank\">Documentação sobre Planos de Fundo</a>"
+
+#: wp-admin/custom-background.php:183 wp-admin/includes/theme.php:189
+msgid "Custom Background"
+msgstr "Fundo personalizado"
+
+#: wp-admin/custom-background.php:186
+msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr "Fundo atualizado. <a href=\"%s\">Visite seu site</a> para ver como ficou."
+
+#: wp-admin/custom-background.php:227
+msgid "Remove Background Image"
+msgstr "Remover imagem de fundo"
+
+#: wp-admin/custom-background.php:228
+msgid "This will remove the background image. You will not be able to restore any customizations."
+msgstr "Isto irá remover a imagem de fundo. Não será possível recuperar nenhuma personalização."
+
+#: wp-admin/custom-background.php:237 wp-admin/custom-background.php:241
+#: wp-admin/includes/image-edit.php:97
+msgid "Restore Original Image"
+msgstr "Restaurar imagem original"
+
+#: wp-admin/custom-background.php:242
+msgid "This will restore the original background image. You will not be able to restore any customizations."
+msgstr "Isto irá restaurar a imagem de fundo original. Você não poderá restaurar nenhuma personalização."
+
+#: wp-admin/custom-background.php:249 wp-admin/custom-header.php:495
+msgid "Select Image"
+msgstr "Selecionar Imagem"
+
+#: wp-admin/custom-background.php:252 wp-admin/custom-header.php:517
+msgid "Choose an image from your computer:"
+msgstr "Escolha uma imagem no seu computador:"
+
+#: wp-admin/custom-background.php:259 wp-admin/custom-header.php:531
+msgid "Or choose an image from your media library:"
+msgstr "Ou escolha uma imagem da sua biblioteca de mídia."
+
+#: wp-admin/custom-background.php:261
+msgid "Choose a Background Image"
+msgstr "Escolha uma imagem de fundo"
+
+#: wp-admin/custom-background.php:262
+msgid "Set as background"
+msgstr "Definir como fundo"
+
+#: wp-admin/custom-background.php:262 wp-admin/custom-header.php:535
+msgid "Choose Image"
+msgstr "Escolher Imagem"
+
+#: wp-admin/custom-background.php:270
+msgid "Display Options"
+msgstr "Opções de exibição"
+
+#: wp-admin/custom-background.php:276 wp-admin/widgets.php:242
+msgid "Position"
+msgstr "Posição"
+
+#: wp-admin/custom-background.php:294
+msgid "Repeat"
+msgstr "Repetir"
+
+#: wp-admin/custom-background.php:304
+msgid "Attachment"
+msgstr "Fixado"
+
+#: wp-admin/custom-background.php:355 wp-admin/custom-header.php:755
+#: wp-admin/includes/ajax-actions.php:1607
+msgid "The uploaded file is not a valid image. Please try again."
+msgstr "O arquivo enviado não é uma imagem válida. Tente novamente."
+
+#: wp-admin/custom-header.php:108
+msgid "This screen is used to customize the header section of your theme."
+msgstr "Esta tela é usada para personalizar a seção de cabeçalho do seu tema."
+
+#: wp-admin/custom-header.php:109
+msgid "You can choose from the theme&#8217;s default header images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
+msgstr "Você pode escolher entre as imagens de cabeçalho padrão do tema, ou usar uma própria. Você também pode personalizar como o Título do site e a Descrição são exibidos."
+
+#: wp-admin/custom-header.php:116
+msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
+msgstr "você pode definir uma imagem personalizada para o cabeçalho do seu site. Simplesmente faça upload da imagem, recorte se preciso e um novo cabeçalho é criado imediatamente. Ou você pode usar uma imagem existente em sua Biblioteca de Mídia, clicando no botão &#8220;Escolher Imagem&#8221;."
+
+#: wp-admin/custom-header.php:117
+msgid "Some themes come with additional header images bundled. If you see multiple images displayed, select the one you&#8217;d like and click the &#8220;Save Changes&#8221; button."
+msgstr "Alguns temas vêm com imagens de cabeçalho adicionais. Se você vê várias imagens sendo exibidas, selecione uma que você goste e clique no botão &#8220;Salvar Alterações&#8221;."
+
+#: wp-admin/custom-header.php:118
+msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
+msgstr "Se seu tema possui mais de uma imagem de cabeçalho padrão, ou se você fez upload de mais de uma imagem personalizada, você pode fazer com que o WordPress mostre uma imagem aleatória em cada página de seu site. Selecione a opção &#8220;Aleatório&#8221; próxima a Imagens enviadas ou Imagens padrão para ativar este recurso. "
+
+#: wp-admin/custom-header.php:119
+msgid "If you don&#8217;t want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
+msgstr "Se você não quer mostrar nenhuma imagem de cabeçalho em seu site, clique no botão &#8220;Remover Cabeçalho&#8221; no fim da seção Imagem de cabeçalho nesta página. Se quiser reativar a imagem de cabeçalho novamente, apenas selecione uma das imagens e clique em &#8220;Salvar Alterações&#8221;."
+
+#: wp-admin/custom-header.php:124 wp-admin/custom-header.php:598
+#: wp-admin/custom-header.php:603
+msgid "Header Text"
+msgstr "Texto do Cabeçalho"
+
+#: wp-admin/custom-header.php:126
+msgid "For most themes, the header text is your Site Title and Tagline, as defined in the <a href=\"%1$s\">General Settings</a> section."
+msgstr "Na maioria dos temas, o texto do cabeçalho é o Título do Site e a Descrição, definidos na tela <a href=\"%1$s\">Configurações gerais</a>."
+
+#: wp-admin/custom-header.php:127
+msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
+msgstr "Na seção do Texto do Cabeçalho desta página, você pode escolher entre exibir o texto ou escondê-lo. Você também pode escolher uma cor de texto clicando no botão Selecionar Cor e digitar um valor de HTML hexadecimal legítimo, ex. &#8220;#ff0000&#8221; para vermelho, ou escolhendo uma cor usando o seletor de cor."
+
+#: wp-admin/custom-header.php:128
+msgid "Don&#8217;t forget to click &#8220;Save Changes&#8221; when you&#8217;re done!"
+msgstr "Não esqueça de clicar em &#8220;Salvar alterações&#8221; quando terminar!"
+
+#: wp-admin/custom-header.php:133
+msgid "<a href=\"http://codex.wordpress.org/Appearance_Header_Screen\" target=\"_blank\">Documentation on Custom Header</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Cabeçalho\" target=\"_blank\">Documentação sobre Cabeçalho Personalizado</a>"
+
+#: wp-admin/custom-header.php:280
+msgid "<strong>Random:</strong> Show a different image on each page."
+msgstr "<strong>Aleatório:</strong> Mostrar uma imagem diferente em cada página."
+
+#: wp-admin/custom-header.php:454 wp-admin/includes/theme.php:191
+msgid "Custom Header"
+msgstr "Personalizar cabeçalho"
+
+#: wp-admin/custom-header.php:458
+msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+msgstr "Cabeçalho atualizado. <a href=\"%s\">Visite seu site</a> para ver como ficou."
+
+#: wp-admin/custom-header.php:497
+msgid "You can select an image to be shown at the top of your site by uploading from your computer or choosing from your media library. After selecting an image you will be able to crop it."
+msgstr "Você pode selecionar uma imagem para ser exibida no topo de seu site fazendo upload do seu computador ou escolhendo em sua biblioteca de mídia. Depois de selecionar a imagem você poderá cortá-la."
+
+#: wp-admin/custom-header.php:500
+msgid "Images of exactly <strong>%1$d &times; %2$d pixels</strong> will be used as-is."
+msgstr "Imagens de exatamente <strong>%1$d &times; %2$d pixels</strong> serão usadas no formato original."
+
+#: wp-admin/custom-header.php:503
+msgid "Images should be at least <strong>%1$d pixels</strong> wide."
+msgstr "As imagens devem ter  pelo menos <strong>%1$d pixels</strong> de largura."
+
+#: wp-admin/custom-header.php:506
+msgid "Images should be at least <strong>%1$d pixels</strong> tall."
+msgstr "As imagens devem ter pelo menos <strong>%1$d pixels</strong> de altura."
+
+#: wp-admin/custom-header.php:510
+msgid "Suggested width is <strong>%1$d pixels</strong>."
+msgstr "A largura sugerida é de <strong>%1$d pixels</strong>."
+
+#: wp-admin/custom-header.php:512
+msgid "Suggested height is <strong>%1$d pixels</strong>."
+msgstr "A altura sugerida é de <strong>%1$d pixels</strong>."
+
+#: wp-admin/custom-header.php:534
+msgid "Choose a Custom Header"
+msgstr "Escolha um cabeçalho personalizado"
+
+#: wp-admin/custom-header.php:535
+msgid "Set as header"
+msgstr "Definir como cabeçalho"
+
+#: wp-admin/custom-header.php:549
+msgid "Uploaded Images"
+msgstr "Imagens enviadas"
+
+#: wp-admin/custom-header.php:551
+msgid "You can choose one of your previously uploaded headers, or show a random one."
+msgstr "Você pode escolher um de seus cabeçalhos enviados anteriormente, ou mostrar um aleatório."
+
+#: wp-admin/custom-header.php:560
+msgid "Default Images"
+msgstr "Imagens padrão"
+
+#: wp-admin/custom-header.php:563
+msgid "If you don&lsquo;t want to upload your own image, you can use one of these cool headers, or show a random one."
+msgstr "Se você não quer fazer upload da sua própria imagem, você pode usar um desses cabeçalhos, ou mostrar um aleatório."
+
+#: wp-admin/custom-header.php:565
+msgid "You can use one of these cool headers or show a random one on each page."
+msgstr "Você pode usar um desses cabeçalhos ou mostrar um aleatório em cada página."
+
+#: wp-admin/custom-header.php:577
+msgid "This will remove the header image. You will not be able to restore any customizations."
+msgstr "Isto removerá a imagem de cabeçalho. Você não poderá restaurar nenhuma personalização."
+
+#: wp-admin/custom-header.php:578
+msgid "Remove Header Image"
+msgstr "Remover a imagem de cabeçalho"
+
+#: wp-admin/custom-header.php:586
+msgid "Reset Image"
+msgstr "Redefinir imagem"
+
+#: wp-admin/custom-header.php:588
+msgid "This will restore the original header image. You will not be able to restore any customizations."
+msgstr "Isto restaurará a imagem de cabeçalho original. Você não poderá restaurar nenhuma personalização. "
+
+#: wp-admin/custom-header.php:589
+msgid "Restore Original Header Image"
+msgstr "Restaurar imagem de cabeçalho original"
+
+#: wp-admin/custom-header.php:606
+msgid "Show header text with your image."
+msgstr "Mostrar texto do cabeçalho com sua imagem."
+
+#: wp-admin/custom-header.php:612
+msgid "Text Color"
+msgstr "Cor do texto"
+
+#: wp-admin/custom-header.php:623
+msgctxt "color"
+msgid "Default: %s"
+msgstr "Padrão: %s"
+
+#: wp-admin/custom-header.php:696 wp-admin/custom-header.php:837
+msgid "Image could not be processed. Please go back and try again."
+msgstr "A imagem não pode ser processada. Volte e tente novamente."
+
+#: wp-admin/custom-header.php:696 wp-admin/custom-header.php:837
+msgid "Image Processing Error"
+msgstr "Erro de processamento de imagem"
+
+#: wp-admin/custom-header.php:710
+msgid "Crop Header Image"
+msgstr "Recortar Imagem do Cabeçalho"
+
+#: wp-admin/custom-header.php:713
+msgid "Choose the part of the image you want to use as your header."
+msgstr "Escolha a parte da imagem que você quer utilizar como cabeçalho."
+
+#: wp-admin/custom-header.php:714
+msgid "You need Javascript to choose a part of the image."
+msgstr "Você precisa do Javascript para escolher uma parte da imagem."
+
+#: wp-admin/custom-header.php:732
+msgid "Crop and Publish"
+msgstr "Recortar e publicar"
+
+#: wp-admin/custom-header.php:735
+msgid "Skip Cropping, Publish Image as Is"
+msgstr "Pular recorte, publique como está"
+
+#: wp-admin/custom-header.php:760
+msgid "Image Upload Error"
+msgstr "Erro no envio da imagem"
+
+#: wp-admin/custom-header.php:895
+msgid "You do not have permission to customize headers."
+msgstr "Sem permissão para personalizar cabeçalhos."
+
+#: wp-admin/customize.php:64
+msgid "Customize %s"
+msgstr "Personalizar %s"
+
+#: wp-admin/customize.php:93
+msgid "Theme Customizer Options"
+msgstr "Opções do Personalizador de Tema"
+
+#: wp-admin/customize.php:96
+msgid "You are previewing %s"
+msgstr "Você está visualizando %s"
+
+#: wp-admin/customize.php:121
+#: wp-admin/includes/class-wp-theme-install-list-table.php:261
+msgid "Collapse Sidebar"
+msgstr "Recolher"
+
+#: wp-admin/customize.php:123
+#: wp-admin/includes/class-wp-theme-install-list-table.php:262
+msgid "Collapse"
+msgstr "Recolher"
+
+#: wp-admin/edit-comments.php:108 wp-admin/edit-comments.php:146
+msgid "Comments on &#8220;%s&#8221;"
+msgstr "Comentários em &#8220;%s#8221;"
+
+#: wp-admin/edit-comments.php:112
+msgctxt "comments per page (screen options)"
+msgid "Comments"
+msgstr "Comentários"
+
+#: wp-admin/edit-comments.php:118
+msgid "You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the Bulk Actions."
+msgstr "Você pode gerenciar comentários feitos em seu site da mesma forma que você gerencia posts e outros conteúdos. Esta tela é personalizável da mesma forma como as outras telas de gerenciamento e você pode agir sobre os comentários usando os links de ação ou as Ações em Massa."
+
+#: wp-admin/edit-comments.php:122
+msgid "Moderating Comments"
+msgstr "Moderando Comentários"
+
+#: wp-admin/edit-comments.php:124
+msgid "A yellow row means the comment is waiting for you to moderate it."
+msgstr "A linha amarela significa que o comentário está esperando pela sua moderação."
+
+#: wp-admin/edit-comments.php:125
+msgid "In the <strong>Author</strong> column, in addition to the author&#8217;s name, email address, and blog URL, the commenter&#8217;s IP address is shown. Clicking on this link will show you all the comments made from this IP address."
+msgstr "Na coluna <strong>Autor</strong>, além do nome do autor, endereço de email, blog e URL, o endereço IP do comentarista é mostrado. Ao clicar neste link, você verá todos os comentários feitos a partir deste endereço de IP."
+
+#: wp-admin/edit-comments.php:126
+msgid "In the <strong>Comment</strong> column, above each comment it says &#8220;Submitted on,&#8221; followed by the date and time the comment was left on your site. Clicking on the date/time link will take you to that comment on your live site. Hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment."
+msgstr "Na coluna <strong>Comentário</strong>, acima de cada comentário aparece &#8220;Enviado em&#8221; seguido da data e hora que o comentário foi deixado em seu site. Ao clicar no link de data/hora você será levado para o comentário no seu site, ao vivo. Ao mover o cursor do mouse sobre qualquer comentário são oferecidas opções para aprovar, responder (e aprovar), edição rápida, editar, marcar como spam, ou excluir o comentário."
+
+#: wp-admin/edit-comments.php:127
+msgid "In the <strong>In Response To</strong> column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows the number of approved comments that post has received. If the bubble is gray, you have moderated all comments for that post. If it is blue, there are pending comments. Clicking the bubble will filter the comments screen to show only comments on that post."
+msgstr "Na coluna <strong>Em resposta à</strong>, há três elementos. O texto é o título do post que gerou o comentário e aponta para o seu editor. O link Ver post aponta para o post no próprio site. O balãozinho exibe o número de comentários aprovados que o post recebeu. Se o balãozinho estiver cinza, todos os comentários já foram moderados. Se estiver azul, há comentários pendentes. Ao clicar no balão, será aberta a tela de comentários filtrados daquele post."
+
+#: wp-admin/edit-comments.php:128
+msgid "Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more."
+msgstr "Muitas pessoas usam atalhos de teclado para moderar seus comentários mais rapidamente. Use o link ao lado para saber mais."
+
+#: wp-admin/edit-comments.php:134
+msgid "<a href=\"http://codex.wordpress.org/Comment_Spam\" target=\"_blank\">Documentation on Comment Spam</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Spam_em_Comentários\" target=\"_blank\">Documentação sobre Spam em Comentários</a>"
+
+#: wp-admin/edit-comments.php:135
+msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">Documentation on Keyboard Shortcuts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Atalhos_de_Teclado\" target=\"_blank\">Documentação sobre Atalhos de Teclado</a>"
+
+#: wp-admin/edit-comments.php:156 wp-admin/edit-tags.php:268
+#: wp-admin/edit.php:229 wp-admin/link-manager.php:75 wp-admin/plugins.php:415
+#: wp-admin/upload.php:188 wp-admin/users.php:436
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Resultados da pesquisa por &#8220;%s&#8221;"
+
+#: wp-admin/edit-comments.php:186
+msgid "%s comment approved"
+msgid_plural "%s comments approved"
+msgstr[0] "%s comentário aprovado"
+msgstr[1] "%s comentários aprovados"
+
+#: wp-admin/edit-comments.php:190
+msgid "%s comment marked as spam."
+msgid_plural "%s comments marked as spam."
+msgstr[0] "%s comentário marcado como spam."
+msgstr[1] "%s comentários marcados como spam."
+
+#: wp-admin/edit-comments.php:194
+msgid "%s comment restored from the spam"
+msgid_plural "%s comments restored from the spam"
+msgstr[0] "%s comentário restaurado dos spams"
+msgstr[1] "%s comentários restaurados dos spams"
+
+#: wp-admin/edit-comments.php:198
+msgid "%s comment moved to the Trash."
+msgid_plural "%s comments moved to the Trash."
+msgstr[0] "%s comentário movido para a Lixeira."
+msgstr[1] "%s comentários movidos para a Lixeira."
+
+#: wp-admin/edit-comments.php:202
+msgid "%s comment restored from the Trash"
+msgid_plural "%s comments restored from the Trash"
+msgstr[0] "%s comentário restaurado da Lixeira"
+msgstr[1] "%s comentários restaurados da Lixeira"
+
+#: wp-admin/edit-comments.php:205
+msgid "%s comment permanently deleted"
+msgid_plural "%s comments permanently deleted"
+msgstr[0] "%s comentário excluído permanentemente"
+msgstr[1] "%s comentários excluídos permanentemente"
+
+#: wp-admin/edit-comments.php:210
+msgid "This comment is already approved."
+msgstr "Este comentário já foi aprovado."
+
+#: wp-admin/edit-comments.php:213
+msgid "This comment is already in the Trash."
+msgstr "Este comentário já está na lixeira."
+
+#: wp-admin/edit-comments.php:213
+msgid "View Trash"
+msgstr "Ver lixeira"
+
+#: wp-admin/edit-comments.php:216
+msgid "This comment is already marked as spam."
+msgstr "Este comentário já foi marcado como spam."
+
+#: wp-admin/edit-comments.php:230
+msgid "Search Comments"
+msgstr "Pesquisar comentários"
+
+#: wp-admin/edit-form-advanced.php:35
+msgid "Post updated. <a href=\"%s\">View post</a>"
+msgstr "Post atualizado. <a href=\"%s\">Ver post</a>"
+
+#: wp-admin/edit-form-advanced.php:36 wp-admin/edit-form-advanced.php:52
+msgid "Custom field updated."
+msgstr "Campo personalizado atualizado"
+
+#: wp-admin/edit-form-advanced.php:37 wp-admin/edit-form-advanced.php:53
+msgid "Custom field deleted."
+msgstr "Campo personalizado excluído."
+
+#: wp-admin/edit-form-advanced.php:38
+msgid "Post updated."
+msgstr "Post atualizado."
+
+#: wp-admin/edit-form-advanced.php:40
+msgid "Post restored to revision from %s"
+msgstr "Post restaurado para revisão às %s"
+
+#: wp-admin/edit-form-advanced.php:41
+msgid "Post published. <a href=\"%s\">View post</a>"
+msgstr "Post publicado. <a href=\"%s\">Ver post</a>"
+
+#: wp-admin/edit-form-advanced.php:42
+msgid "Post saved."
+msgstr "Post salvo."
+
+#: wp-admin/edit-form-advanced.php:43
+msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+msgstr "Post enviado. <a target=\"_blank\" href=\"%s\">Visualizar post</a>"
+
+#: wp-admin/edit-form-advanced.php:44
+msgid "Post scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview post</a>"
+msgstr "Post agendado para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Visualizar post</a>"
+
+#: wp-admin/edit-form-advanced.php:46 wp-admin/edit-form-advanced.php:59
+#: wp-admin/edit-form-comment.php:97 wp-admin/includes/meta-boxes.php:155
+#: wp-admin/includes/meta-boxes.php:259
+msgid "M j, Y @ G:i"
+msgstr "j \\d\\e F \\d\\e Y \\à\\s G:i"
+
+#: wp-admin/edit-form-advanced.php:47
+msgid "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+msgstr "Rascunho do post atualizado. <a target=\"_blank\" href=\"%s\">Visualizar post</a>"
+
+#: wp-admin/edit-form-advanced.php:51
+msgid "Page updated. <a href=\"%s\">View page</a>"
+msgstr "Página atualizada. <a href=\"%s\">Ver página</a>"
+
+#: wp-admin/edit-form-advanced.php:54
+msgid "Page updated."
+msgstr "Página atualizada"
+
+#: wp-admin/edit-form-advanced.php:55
+msgid "Page restored to revision from %s"
+msgstr "Página restaurada para revisão às %s"
+
+#: wp-admin/edit-form-advanced.php:56
+msgid "Page published. <a href=\"%s\">View page</a>"
+msgstr "Página publicada. <a href=\"%s\">Ver página</a>"
+
+#: wp-admin/edit-form-advanced.php:57
+msgid "Page saved."
+msgstr "Página salva."
+
+#: wp-admin/edit-form-advanced.php:58
+msgid "Page submitted. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+msgstr "Página enviada. <a target=\"_blank\" href=\"%s\">Visualizar página</a>"
+
+#: wp-admin/edit-form-advanced.php:59
+msgid "Page scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview page</a>"
+msgstr "Página agendada para: <strong>%1$s</strongb>. <a target=\"_blank\" href=\"%2$s\">Visualizar página</a>"
+
+#: wp-admin/edit-form-advanced.php:60
+msgid "Page draft updated. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+msgstr "Rascunho da página atualizado. <a target=\"_blank\" href=\"%s\">Visualizar página</a>"
+
+#: wp-admin/edit-form-advanced.php:62 wp-admin/media.php:95
+#: wp-admin/upload.php:194 wp-admin/upload.php:219
+msgid "Media attachment updated."
+msgstr "Mídia atualizada."
+
+#: wp-admin/edit-form-advanced.php:94
+msgid "There is an autosave of this post that is more recent than the version below. <a href=\"%s\">View the autosave</a>"
+msgstr "Há uma versão mais recente do post abaixo, salva automaticamente. <a href=\"%s\">Ver esta versão</a>"
+
+#: wp-admin/edit-form-advanced.php:133 wp-admin/edit-form-advanced.php:278
+msgid "Page Attributes"
+msgstr "Atributos de página"
+
+#: wp-admin/edit-form-advanced.php:133
+msgid "Attributes"
+msgstr "Atributos"
+
+#: wp-admin/edit-form-advanced.php:136
+msgid "Featured Image"
+msgstr "Imagem Destacada"
+
+#: wp-admin/edit-form-advanced.php:142
+msgid "Send Trackbacks"
+msgstr "Enviar trackbacks"
+
+#: wp-admin/edit-form-advanced.php:145
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: wp-admin/edit-form-advanced.php:149 wp-admin/includes/dashboard.php:308
+#: wp-admin/menu.php:214
+msgid "Discussion"
+msgstr "Discussão"
+
+#: wp-admin/edit-form-advanced.php:155
+#: wp-admin/includes/class-wp-posts-list-table.php:750
+#: wp-admin/includes/class-wp-terms-list-table.php:101
+#: wp-admin/includes/class-wp-terms-list-table.php:343
+#: wp-admin/includes/meta-boxes.php:574
+msgid "Slug"
+msgstr "Slug"
+
+#: wp-admin/edit-form-advanced.php:175
+msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
+msgstr "O campo de título e a área grande de edição de post estão fixas no lugar, mas você pode reposicionar todas as outras caixas as arrastando e soltando. Você também pode minimizar ou expandi-las clicando na barra de título de cada caixa. Use a aba de Opções de Tela para exibir mais caixas (Resumo, Enviar Trackbacks, Campos Personalizados, Discussão, Slug, Autor) ou para escolher entre os layouts de 1 ou 2 colunas para esta tela."
+
+#: wp-admin/edit-form-advanced.php:179
+msgid "Customizing This Display"
+msgstr "Personalizar esta Exibição"
+
+#: wp-admin/edit-form-advanced.php:183
+msgid "<strong>Title</strong> - Enter a title for your post. After you enter a title, you&#8217;ll see the permalink below, which you can edit."
+msgstr "<strong>Título</strong> - Digite um título para seu post. Depois que você fizer isto, logo abaixo você verá o link permanente, que você pode editar."
+
+#: wp-admin/edit-form-advanced.php:184
+msgid "<strong>Post editor</strong> - Enter the text for your post. There are two modes of editing: Visual and Text. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The Text mode allows you to enter HTML along with your post text. Line breaks will be converted to paragraphs automatically. You can insert media files by clicking the icons above the post editor and following the directions. You can go to the distraction-free writing screen via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in Text mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular post editor."
+msgstr "<strong>Editor</strong> - Digite o texto de seu post. Há dois modos de edição: Visual e HTML. Escolha o modo clicando na aba correspondente. O modo visual proporciona um editor WYSIWYG. Clique no último ícone da linha para acessar uma segunda linha de controles. O modo HTML permite que você digite seu texto em HTML. As quebras de linha serão convertidas em parágrafos automaticamente. Você pode inserir arquivos de mídia clicando nos ícones acima do editor e seguindo as instruções. Você pode ir para a tela de escrita sem distrações através do ícone de tela cheia no modo visual (penúltimo na linha de cima) ou do botão tela cheia no modo HTML (último na linha). Nesta tela você pode tornar os botões visíveis passando o mouse sobre a parte de cima da tela. Saia da tela cheia e volte para o editor."
+
+#: wp-admin/edit-form-advanced.php:188
+msgid "Title and Post Editor"
+msgstr "Editor de Título e Post"
+
+#: wp-admin/edit-form-advanced.php:193
+msgid "You can also create posts with the <a href=\"%s\">Press This bookmarklet</a>."
+msgstr "Você também pode criar posts com o <a href=\"%s\">bookmarklet Publique isso</a>."
+
+#: wp-admin/edit-form-advanced.php:195
+msgid "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentation on Writing and Editing Posts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Escrevendo_Postagens\" target=\"_blank\">Documentação sobre Escrever e Editar Posts</a>"
+
+#: wp-admin/edit-form-advanced.php:199
+msgid "Pages are similar to Posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest Pages under other Pages by making one the &#8220;Parent&#8221; of the other, creating a group of Pages."
+msgstr "As páginas são similares aos posts pois elas possuem um título, um corpo de texto e metadados associados, mas são diferentes pois não fazem parte do fluxo cronológico do blog, são um tipo de post permanente. As páginas não são categorizadas e não possuem tags, mas podem possuir uma hierarquia. Você pode aninhar páginas sob outras páginas criando &#8220;mães&#8221; e as agrupando."
+
+#: wp-admin/edit-form-advanced.php:200
+msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and Text modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box:"
+msgstr "Criar uma página é parecido com criar um post, e as telas podem ser personalizadas da mesma forma utilizando os recursos de arrastar e soltar, a aba Opções de tela, e expandindo/recolhendo as caixas como quiser. Esta tela também possui o espaço de escrita sem distrações, disponível nos modos Visual e HTML através dos botões de tela cheia. O editor de páginas funciona quase do mesmo jeito que o editor de posts, mas há algumas funcionalidades específicas na caixa de Atributos da página:"
+
+#: wp-admin/edit-form-advanced.php:204
+msgid "About Pages"
+msgstr "Sobre Páginas"
+
+#: wp-admin/edit-form-advanced.php:210
+msgid "<a href=\"http://codex.wordpress.org/Pages_Add_New_Screen\" target=\"_blank\">Documentation on Adding New Pages</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Páginas-Adicionar_Nova\" target=\"_blank\">Documentação sobre Adicionar Novas Páginas</a>"
+
+#: wp-admin/edit-form-advanced.php:211
+msgid "<a href=\"http://codex.wordpress.org/Pages_Screen#Editing_Individual_Pages\" target=\"_blank\">Documentation on Editing Pages</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Páginas\" target=\"_blank\">Documentação sobre Editar Páginas</a>"
+
+#: wp-admin/edit-form-advanced.php:219
+msgid "This screen allows you to edit four fields for metadata in a file within the media library."
+msgstr "Esta tela permite que você edite quatro campos de metadata em um arquivo dentro da biblioteca de mídia."
+
+#: wp-admin/edit-form-advanced.php:220 wp-admin/media.php:76
+msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
+msgstr "Apenas para imagens, você pode clicar em Editar Imagem sob a miniatura para expandir um editor de imagens em linha, com ícones para recortar, girar, ou virar a imagem e também para fazer e desfazer ações. As caixas à direita, fornecem mais opções para redimensionar a imagem, para recortá-la e para recortar a miniatura de forma diferente da imagem original. Você pode clicar em Ajuda nestas caixas para obter mais informações."
+
+#: wp-admin/edit-form-advanced.php:221 wp-admin/media.php:77
+msgid "Note that you crop the image by clicking on it (the Crop icon is already selected) and dragging the cropping frame to select the desired part. Then click Save to retain the cropping."
+msgstr "Observe que você recorta a imagem clicando nela (o ícone Recortar já está selecionado) e arrastando a área de recorte para a parte desejada. Depois clique em salvar para confirmar."
+
+#: wp-admin/edit-form-advanced.php:222 wp-admin/media.php:78
+msgid "Remember to click Update Media to save metadata entered or changed."
+msgstr "Lembre-se de clicar em Atualizar Mídia para salvar os metadados inseridos ou alterados."
+
+#: wp-admin/edit-form-advanced.php:227 wp-admin/media.php:83
+msgid "<a href=\"http://codex.wordpress.org/Media_Add_New_Screen#Edit_Media\" target=\"_blank\">Documentation on Edit Media</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Mídia-Adicionar_Nova#Editar_Mídia\" target=\"_blank\">Documentação sobre Editar Mídia</a>"
+
+#: wp-admin/edit-form-advanced.php:233
+msgid "You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button."
+msgstr "Você pode fazer upload e inserir mídias (imagens, áudios, documentos, etc.) clicando no botão Adicionar Mídia. Você pode selecionar entre as imagens e arquivos já existentes na Biblioteca de Mídia, ou fazer upload de uma nova mídia para sua página ou post. Para criar uma galeria de imagens, selecione as imagens para adicioná-las e clique no botão  &#8220;Criar nova galeria&#8221;."
+
+#: wp-admin/edit-form-advanced.php:234
+msgid "You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. Please refer to the Codex to <a href=\"http://codex.wordpress.org/Embeds\">learn more about embeds</a>."
+msgstr "Você também pode incorporar uma mídia de vários sites populares como Twitter, YouTube, Flickr e outros colando o URL da mídia na sua própria linha dentro do conteúdo de seu post/página. Recorra ao Codex para <a href=\"http://codex.wordpress.org/Embeds\">aprender mais sobre mídias incorporadas</a>."
+
+#: wp-admin/edit-form-advanced.php:238
+msgid "Inserting Media"
+msgstr "Inserir mídia"
+
+#: wp-admin/edit-form-advanced.php:244
+msgid "Several boxes on this screen contain settings for how your content will be published, including:"
+msgstr "Várias caixas nesta tela contêm configurações sobre como seu conteúdo será publicado, incluindo:"
+
+#: wp-admin/edit-form-advanced.php:245
+msgid "<strong>Publish</strong> - You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
+msgstr "<strong>Publicar</strong> - Você pode definir os termos de publicação de seu post na caixa Publicar. Para Status, Visibilidade, e Publicar (imediatamente), clique no link Editar para mostrar mais opções. Visibilidade inclui opções para proteger um post por senha ou torná-lo fixo no topo do seu blog por tempo indeterminado. Publicar (imediatamente) permite que você defina uma data futura ou passada e a hora, assim você pode programar um post para ser publicado no futuro ou alterar sua data para uma data passada."
+
+#: wp-admin/edit-form-advanced.php:248
+msgid "<strong>Format</strong> - Post Formats designate how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Please refer to the Codex for <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions of each post format</a>. Your theme could enable all or some of 10 possible formats."
+msgstr "<strong>Formato</strong> - Formatos de Post determinam como o seu tema exibirá um post específico. Por exemplo, você pode ter em seu blog um post <em>padrão</em> com um título e parágrafos ou uma <em>nota</em> que omite o título e contém um texto curto. Recorra ao Codex para obter as <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descrições de cada formato de post</a>. O seu tema pode ativar todos ou alguns dos 10 formatos possíveis."
+
+#: wp-admin/edit-form-advanced.php:252
+msgid "<strong>Featured Image</strong> - This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the featured image as a post thumbnail on the home page, a custom header, etc."
+msgstr "<strong>Imagem destacada</strong> - Isto permite que você associe uma imagem ao seu post, sem inseri-la. Isso geralmente é útil apenas se o seu tema usa a imagem destacada como uma miniatura do post na página principal, um cabeçalho personalizado, etc."
+
+#: wp-admin/edit-form-advanced.php:259
+msgid "Publish Settings"
+msgstr "Configurações de Publicação"
+
+#: wp-admin/edit-form-advanced.php:263
+msgid "<strong>Send Trackbacks</strong> - Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. Enter the URL(s) you want to send trackbacks. If you link to other WordPress sites they&#8217;ll be notified automatically using pingbacks, and this field is unnecessary."
+msgstr "<strong>Enviar trackbacks</strong> - Os trackbacks são uma forma de avisar sistemas de blogs antigos que você fez links para eles. Digite os URL(s) para os quais você deseja enviar trackbacks. Se você fizer links para outros sites WordPress eles serão notificados automaticamente usando pingbacks e este campo é desnecessário."
+
+#: wp-admin/edit-form-advanced.php:264
+msgid "<strong>Discussion</strong> - You can turn comments and pings on or off, and if there are comments on the post, you can see them here and moderate them."
+msgstr "<strong>Discussão</strong> - Você pode ligar e desligar os comentários e pings e se houver comentários sobre o post, você pode ver e moderá-los aqui."
+
+#: wp-admin/edit-form-advanced.php:268 wp-admin/options-discussion.php:15
+msgid "Discussion Settings"
+msgstr "Configurações de Discussão"
+
+#: wp-admin/edit-form-advanced.php:272
+msgid "<strong>Parent</strong> - You can arrange your pages in hierarchies. For example, you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how many levels you can nest pages."
+msgstr "<strong>Mãe</strong> - Você pode organizar suas páginas hierarquicamente. Por exemplo, você pode ter uma página &#8220;Sobre&#8221; que possui as páginas &#8220;Minha vida&#8221; e &#8220;Meu cachorro&#8221; sob ela. Não há limites para quantos níveis de páginas você pode aninhar."
+
+#: wp-admin/edit-form-advanced.php:273
+msgid "<strong>Template</strong> - Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them in this dropdown menu."
+msgstr "<strong>Modelo</strong> - alguns temas possuem modelos personalizados que você pode usar para certas páginas que devem possuir recursos adicionais ou layouts personalizados. Se for o caso, você verá eles neste menu suspenso."
+
+#: wp-admin/edit-form-advanced.php:274
+msgid "<strong>Order</strong> - Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
+msgstr "<strong>Ordem</strong> - As páginas são normalmente organizadas alfabeticamente, mas você pode escolher sua própria ordem digitando um número (1 para primeiro, etc.) neste campo."
+
+#: wp-admin/edit-form-advanced.php:337
+msgid "Get Shortlink"
+msgstr "Pegar link permanente"
+
+#: wp-admin/edit-form-advanced.php:374 wp-admin/includes/ajax-actions.php:1754
+msgid "Last edited by %1$s on %2$s at %3$s"
+msgstr "Última edição feita por %1$s, em %2$s às %3$s "
+
+#: wp-admin/edit-form-advanced.php:376 wp-admin/includes/ajax-actions.php:1756
+msgid "Last edited on %1$s at %2$s"
+msgstr "Última edição em %1$s às %2$s "
+
+#: wp-admin/edit-form-comment.php:33
+msgid "Name:"
+msgstr "Nome:"
+
+#: wp-admin/edit-form-comment.php:40
+msgid "E-mail (%s):"
+msgstr "Email (%s):"
+
+#: wp-admin/edit-form-comment.php:40
+msgid "send e-mail"
+msgstr "enviar email"
+
+#: wp-admin/edit-form-comment.php:42
+msgid "E-mail:"
+msgstr "Email:"
+
+#: wp-admin/edit-form-comment.php:51
+msgid "visit site"
+msgstr "visitar site"
+
+#: wp-admin/edit-form-comment.php:52
+msgid "URL (%s):"
+msgstr "URL (%s):"
+
+#: wp-admin/edit-form-comment.php:54
+msgid "URL:"
+msgstr "URL:"
+
+#: wp-admin/edit-form-comment.php:74 wp-admin/includes/ajax-actions.php:1442
+#: wp-admin/includes/class-wp-posts-list-table.php:958
+msgid "Status"
+msgstr "Status"
+
+#: wp-admin/edit-form-comment.php:81
+msgid "View Comment"
+msgstr "Ver comentário"
+
+#: wp-admin/edit-form-comment.php:90
+msgctxt "adjective"
+msgid "Pending"
+msgstr "Pendente"
+
+#: wp-admin/edit-form-comment.php:98
+msgid "Submitted on: <b>%1$s</b>"
+msgstr "Enviado em: <b>%1$s</b>"
+
+#: wp-admin/edit-form-comment.php:110
+#: wp-admin/includes/class-wp-comments-list-table.php:204
+#: wp-admin/includes/class-wp-posts-list-table.php:192
+#: wp-admin/includes/media.php:1188 wp-admin/includes/meta-boxes.php:196
+msgid "Move to Trash"
+msgstr "Mover para a lixeira"
+
+#: wp-admin/edit-link-form.php:14
+msgid "<a href=\"%s\">Links</a> / Edit Link"
+msgstr "<a href=\"%s\">Links</a> / Editar link"
+
+#: wp-admin/edit-link-form.php:15 wp-admin/includes/meta-boxes.php:705
+msgid "Update Link"
+msgstr "Atualizar link"
+
+#: wp-admin/edit-link-form.php:19
+msgid "<a href=\"%s\">Links</a> / Add New Link"
+msgstr "<a href=\"%s\">Links</a> / Adicionar novo link"
+
+#: wp-admin/edit-link-form.php:30 wp-admin/includes/nav-menu.php:160
+#: wp-admin/includes/nav-menu.php:1139
+msgid "Link Relationship (XFN)"
+msgstr "Relação de Links (XFN)"
+
+#: wp-admin/edit-link-form.php:46
+msgid "You can add or edit links on this screen by entering information in each of the boxes. Only the link&#8217;s web address and name (the text you want to display on your site as the link) are required fields."
+msgstr "Você pode adicionar ou editar links nesta tela ao digitar informações em cada caixa. Somente o endereço do link e o nome (o texto que você quer que seja exibido em seu site como o link) são campos obrigatórios."
+
+#: wp-admin/edit-link-form.php:47
+msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
+msgstr "As caixas para nome de links, endereço e descrição possuem posição fixa, enquanto que as outras podem ser reposicionadas arrastando e soltando-as. Você também pode esconder caixas que você não usa na aba Opções de tela, ou minimizando as caixas clicando em suas barras de título."
+
+#: wp-admin/edit-link-form.php:48
+msgid "XFN stands for <a href=\"http://gmpg.org/xfn/\" target=\"_blank\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
+msgstr "XFN é a sigla de <a href=\"http://gmpg.org/xfn/\" target=\"_blank\">XHTML Friends Network (Rede XHTML de amigos)</a>, que é opcional. O WordPress permite a geração de atributos XFN para mostrar como você está relacionado aos autores/donos dos sites para os quais você está criando link."
+
+#: wp-admin/edit-link-form.php:53
+msgid "<a href=\"http://codex.wordpress.org/Links_Add_New_Screen\" target=\"_blank\">Documentation on Creating Links</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Links-Adicionar_Novo\" target=\"_blank\">Documentação sobre Adicionar Links</a>"
+
+#: wp-admin/edit-link-form.php:62 wp-admin/link-manager.php:73
+#: wp-admin/menu.php:78
+msgctxt "link"
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: wp-admin/edit-link-form.php:65
+msgid "Link added."
+msgstr "Link adicionado."
+
+#: wp-admin/edit-link-form.php:83
+#: wp-admin/includes/class-wp-links-list-table.php:81
+msgctxt "link name"
+msgid "Name"
+msgstr "Nome"
+
+#: wp-admin/edit-link-form.php:86
+msgid "Example: Nifty blogging software"
+msgstr "Por exemplo: Magnífico software para blog"
+
+#: wp-admin/edit-link-form.php:91
+msgid "Web Address"
+msgstr "Endereço (URL)"
+
+#: wp-admin/edit-link-form.php:94
+msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
+msgstr "Por exemplo: <code>http://br.wordpress.org/</code> &mdash; não se esqueça do <code>http://</code>"
+
+#: wp-admin/edit-link-form.php:102
+msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
+msgstr "O texto acima será mostrado quando alguém passar o mouse sobre o link na lista de links, ou opcionalmente, abaixo dele."
+
+#: wp-admin/edit-tag-form.php:14
+msgid "You did not select an item for editing."
+msgstr "Você não selecionou um item para editar."
+
+#: wp-admin/edit-tag-form.php:40 wp-admin/edit-tags.php:360
+msgctxt "Taxonomy Name"
+msgid "Name"
+msgstr "Nome"
+
+#: wp-admin/edit-tag-form.php:42 wp-admin/edit-tags.php:362
+msgid "The name is how it appears on your site."
+msgstr "O nome é como aparece em seu site."
+
+#: wp-admin/edit-tag-form.php:46 wp-admin/edit-tags.php:366
+msgctxt "Taxonomy Slug"
+msgid "Slug"
+msgstr "Slug"
+
+#: wp-admin/edit-tag-form.php:48 wp-admin/edit-tags.php:368
+msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "O &ldquo;slug&rdquo; é uma versão amigável do URL. Normalmente, é todo em minúsculas e contém apenas letras, números e hífens."
+
+#: wp-admin/edit-tag-form.php:53 wp-admin/edit-tags.php:373
+msgctxt "Taxonomy Parent"
+msgid "Parent"
+msgstr "Pai"
+
+#: wp-admin/edit-tag-form.php:57 wp-admin/edit-tags.php:376
+msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
+msgstr "Ao contrário das tags, as categorias, podem ter uma hierarquia. Você pode ter uma categoria chamada MPB e nela haver categorias para Bossa Nova e Baião. Totalmente opcional."
+
+#: wp-admin/edit-tag-form.php:63 wp-admin/edit-tags.php:381
+msgctxt "Taxonomy Description"
+msgid "Description"
+msgstr "Descrição"
+
+#: wp-admin/edit-tag-form.php:65 wp-admin/edit-tags.php:383
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr "A descrição não está em destaque por padrão, no entanto alguns temas podem mostrá-la."
+
+#: wp-admin/edit-tags.php:128 wp-admin/edit-tags.php:143 wp-admin/post.php:139
+msgid "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was deleted?"
+msgstr "Você tentou editar um item que não existe. Talvez tenha sido excluído?"
+
+#: wp-admin/edit-tags.php:191
+msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
+msgstr "Você pode usar categorias para definir seções de seu site e grupo de posts relacionados. A categoria padrão é &#8220;Sem categoria&#8221; até que você altere-a em suas <a href=\"%s\">configurações de escrita</a>."
+
+#: wp-admin/edit-tags.php:193
+msgid "You can create groups of links by using Link Categories. Link Category names must be unique and Link Categories are separate from the categories you use for posts."
+msgstr "Você pode criar grupos de links usando Categorias de Link. Os nomes das Categorias de Link deve ser único e as Categorias de Links são separados de categorias que você usa para posts."
+
+#: wp-admin/edit-tags.php:195
+msgid "You can assign keywords to your posts using <strong>tags</strong>. Unlike categories, tags have no hierarchy, meaning there&#8217;s no relationship from one tag to another."
+msgstr "Você pode atribuir palavras-chave para seus posts usando <strong>tags</strong>. Ao contrário de categorias, tags não têm hierarquia, ou seja, não há relação entre uma tag e outra."
+
+#: wp-admin/edit-tags.php:198
+msgid "You can delete Link Categories in the Bulk Action pull-down, but that action does not delete the links within the category. Instead, it moves them to the default Link Category."
+msgstr "Você pode excluir as categorias de links no menu suspenso \"Ações em massa\", mas essa ação não exclui os links dentro desta categoria. Ao invés disso, eles são movidos para a categoria padrão de links."
+
+#: wp-admin/edit-tags.php:200
+msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
+msgstr "Qual é a diferença entre categorias e tags? Normalmente, as tags são palavras-chave ad-hoc que identificam informações importantes em seu post (nomes, assuntos, etc.) que podem ou não ocorrer em outros posts, enquanto categorias são seções pré-determinadas. Se você pensar em seu site como um livro, as categorias são como o índice e as tags são como termos no índice."
+
+#: wp-admin/edit-tags.php:210
+msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
+msgstr "Quando adicionar uma nova categoria nesta tela, você preencherá os seguintes campos:"
+
+#: wp-admin/edit-tags.php:212
+msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
+msgstr "Ao adicionar uma nova tag nesta tela, você preencherá os seguintes campos:"
+
+#: wp-admin/edit-tags.php:215
+msgid "<strong>Name</strong> - The name is how it appears on your site."
+msgstr "<strong>Nome</strong> - O Nome é como ela aparece no seu site."
+
+#: wp-admin/edit-tags.php:218
+msgid "<strong>Slug</strong> - The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "<strong>Slug</strong> - O &#8220;slug&#8221; é uma versão amigável do URL do nome. Normalmente ele é todo em minúsculas e contém letras, números e hifens."
+
+#: wp-admin/edit-tags.php:221
+msgid "<strong>Parent</strong> - Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
+msgstr "<strong>Mãe</strong> - Categorias, diferente de tags podem possuir uma hierarquia. Você pode possuir uma categoria Samba e sob ela possuir subcategorias para Bossa Nova e Chorinho. Totalmente opcional. Para criar subcategorias, apenas escolha outra categoria no menu Mãe."
+
+#: wp-admin/edit-tags.php:223
+msgid "<strong>Description</strong> - The description is not prominent by default; however, some themes may display it."
+msgstr "<strong>Descrição</strong> - a descrição não é proeminente por padrão, porém alguns temas podem exibi-la."
+
+#: wp-admin/edit-tags.php:225
+msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
+msgstr "Você pode mudar a exibição nesta tela através da aba Opções de Tela e configurar quantos itens mostrar por tela e para exibir/ocultar colunas na tabela. "
+
+#: wp-admin/edit-tags.php:229
+msgid "Adding Categories"
+msgstr "Adicionando Categorias"
+
+#: wp-admin/edit-tags.php:229
+msgid "Adding Tags"
+msgstr "Adicionando Tags"
+
+#: wp-admin/edit-tags.php:237
+msgid "<a href=\"http://codex.wordpress.org/Posts_Categories_Screen\" target=\"_blank\">Documentation on Categories</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Categorias\" target=\"_blank\">Documentação sobre Categorias</a>"
+
+#: wp-admin/edit-tags.php:239
+msgid "<a href=\"http://codex.wordpress.org/Links_Link_Categories_Screen\" target=\"_blank\">Documentation on Link Categories</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Categorias_de_Links\" target=\"_blank\">Documentação sobre Categorias de Links</a>"
+
+#: wp-admin/edit-tags.php:241
+msgid "<a href=\"http://codex.wordpress.org/Posts_Tags_Screen\" target=\"_blank\">Documentation on Tags</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Tags\" target=\"_blank\">Documentação sobre Tags</a>"
+
+#: wp-admin/edit-tags.php:255
+msgid "Item added."
+msgstr "Item adicionado."
+
+#: wp-admin/edit-tags.php:256
+msgid "Item deleted."
+msgstr "Item excluído."
+
+#: wp-admin/edit-tags.php:257
+msgid "Item updated."
+msgstr "Item atualizado."
+
+#: wp-admin/edit-tags.php:258
+msgid "Item not added."
+msgstr "item não adicionado."
+
+#: wp-admin/edit-tags.php:259 wp-admin/includes/ajax-actions.php:1401
+#: wp-admin/includes/ajax-actions.php:1406
+msgid "Item not updated."
+msgstr "Item não atualizado."
+
+#: wp-admin/edit-tags.php:260
+msgid "Items deleted."
+msgstr "Item excluído."
+
+#: wp-admin/edit-tags.php:301
+msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
+msgstr "<strong>Nota:</strong><br />Excluir uma categoria não exclui os posts e links dessa categoria. Em vez disso, os posts que estavam atribuídos apenas à categoria excluída serão atribuídos à categoria <strong>%s</strong>."
+
+#: wp-admin/edit-tags.php:303
+msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
+msgstr "Para converter seletivamente categorias em tags, use o <a href=\"%s\">conversor de categoria em tag</a>."
+
+#: wp-admin/edit-tags.php:308
+msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>."
+msgstr "As tags podem ser seletivamente convertidas em categorias usando o <a href=\"%s\">conversor de tag em categoria</a>."
+
+#: wp-admin/edit.php:81 wp-admin/post.php:218
+msgid "You are not allowed to move this item to the Trash."
+msgstr "Sem permissão para mover este item para a Lixeira. "
+
+#: wp-admin/edit.php:84 wp-admin/post.php:221
+msgid "Error in moving to Trash."
+msgstr "Erro ao mover para a Lixeira."
+
+#: wp-admin/edit.php:94
+msgid "You are not allowed to restore this item from the Trash."
+msgstr "Sem permissão para restaurar este item da Lixeira."
+
+#: wp-admin/edit.php:97 wp-admin/post.php:234
+msgid "Error in restoring from Trash."
+msgstr "Erro ao recuperar da Lixeira."
+
+#: wp-admin/edit.php:109 wp-admin/post.php:244
+msgid "You are not allowed to delete this item."
+msgstr "Sem permissão para excluir este item."
+
+#: wp-admin/edit.php:113 wp-admin/edit.php:116 wp-admin/upload.php:126
+msgid "Error in deleting..."
+msgstr "Erro ao excluir..."
+
+#: wp-admin/edit.php:156
+msgid "This screen provides access to all of your posts. You can customize the display of this screen to suit your workflow."
+msgstr "Esta tela oferece acesso a todos os seus posts. Personalize sua exibição para que se adapte ao seu ritmo de trabalho."
+
+#: wp-admin/edit.php:160
+msgid "Screen Content"
+msgstr "Conteúdo da Tela"
+
+#: wp-admin/edit.php:162
+msgid "You can customize the display of this screen&#8217;s contents in a number of ways:"
+msgstr "Você pode personalizar a exibição do conteúdo desta tela das seguintes maneiras:"
+
+#: wp-admin/edit.php:164
+msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
+msgstr "Você pode ocultar/exibir colunas com base em suas necessidades e decidir quantos posts listar por tela através da aba Opções de Tela."
+
+#: wp-admin/edit.php:165
+msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
+msgstr "Você pode filtrar a lista de posts por status usando os links acima à esquerda para mostrar Todos, Publicados, Rascunhos, ou os movidos para a Lixeira. A visualização padrão exibe todos os posts."
+
+#: wp-admin/edit.php:166
+msgid "You can view posts in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr "Você pode ver os posts em uma lista de títulos simples ou com o resumo. Escolha a visualização preferida clicando nos ícones no canto superior direito da lista de posts."
+
+#: wp-admin/edit.php:167
+msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
+msgstr "Você pode refinar a lista para mostrar apenas posts de uma categoria específica, ou de um mês específico usando as listas suspensas acima da lista de posts. Clique no botão Filtrar após fazer sua seleção. Você também pode refinar a lista clicando no autor, categoria ou tag do post na lista de posts."
+
+#: wp-admin/edit.php:172 wp-admin/upload.php:159
+msgid "Available Actions"
+msgstr "Ações Disponíveis"
+
+#: wp-admin/edit.php:174
+msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
+msgstr "Ao passar o cursor sobre uma linha na lista de posts, serão exibidos os links de ação que lhe permitem administrar o seu post. Você pode realizar as seguintes ações:"
+
+#: wp-admin/edit.php:176
+msgid "<strong>Edit</strong> takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
+msgstr "<strong>Editar</strong> leva você para a tela de edição para esse post. Você também pode chegar a essa tela, clicando sobre o título do post."
+
+#: wp-admin/edit.php:177
+msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
+msgstr "<strong>Edição Rápida</strong> oferece acesso para metadados do seu post, o que lhe permite atualizar os dados do post, sem sair desta tela."
+
+#: wp-admin/edit.php:178
+msgid "<strong>Trash</strong> removes your post from this list and places it in the trash, from which you can permanently delete it."
+msgstr "<strong>Excluir</strong> remove o seu post desta lista e o coloca na Lixeira, a partir da qual você pode excluí-lo permanentemente."
+
+#: wp-admin/edit.php:179
+msgid "<strong>Preview</strong> will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
+msgstr "<strong>Pré-visualizar</strong> vai mostrar como seu post ficará em seu site, antes de publicá-lo. Ver o levará para o seu site ao vivo para ver o post. Qual link está disponível depende do status do seu post."
+
+#: wp-admin/edit.php:184 wp-admin/includes/class-wp-list-table.php:294
+msgid "Bulk Actions"
+msgstr "Ações em Massa"
+
+#: wp-admin/edit.php:186
+msgid "You can also edit or move multiple posts to the trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Você também pode editar ou mover múltiplos posts para a Lixeira de uma só vez. Selecione os posts que quer atuar clicando em suas caixas de seleção, em seguida, selecione a ação a ser tomada no menu Ações em Massa, depois no botão Aplicar."
+
+#: wp-admin/edit.php:187
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
+msgstr "Quando se usa Edição em Massa, você pode alterar os metadados (categorias, autor, etc) para todos os posts selecionados de uma só vez. Para remover um post do agrupamento, basta clicar no x ao lado de seu nome na área de Edição em Massa que aparece."
+
+#: wp-admin/edit.php:192
+msgid "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentation on Managing Posts</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Posts\" target=\"_blank\">Documentação sobre Gerenciamento de Posts</a>"
+
+#: wp-admin/edit.php:201
+msgid "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the &#8220;Parent&#8221; of the other, creating a group of pages."
+msgstr "Páginas são semelhantes aos posts já que têm um título, corpo do texto e metadados associados, mas são diferentes já que não fazem parte do fluxo cronológico do blog, são como posts permanentes. Páginas não são categorizados ou marcadas, mas podem ter uma hierarquia. Você pode aninhar páginas em outras páginas, fazendo uma página \"mãe\" de outra e assim criando um grupo de páginas."
+
+#: wp-admin/edit.php:205
+msgid "Managing Pages"
+msgstr "Gerenciando Páginas"
+
+#: wp-admin/edit.php:207
+msgid "Managing pages is very similar to managing posts, and the screens can be customized in the same way."
+msgstr "Gerenciar páginas é muito semelhante ao gerenciamento de post e as telas podem ser personalizadas da mesma forma."
+
+#: wp-admin/edit.php:208
+msgid "You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk Actions menu to edit the metadata for multiple pages at once."
+msgstr "Você também pode executar os mesmos tipos de ações, incluindo reduzir a lista usando os filtros da página, usar os Links de Ação que aparecem quando você passa o cursor do mouse sobre uma linha, ou usar o menu Ações em Massa para editar os metadados de várias páginas de uma vez."
+
+#: wp-admin/edit.php:213
+msgid "<a href=\"http://codex.wordpress.org/Pages_Screen\" target=\"_blank\">Documentation on Managing Pages</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Páginas\" target=\"_blank\">Documentação sobre Gerenciar Páginas</a>"
+
+#: wp-admin/edit.php:237
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s post atualizado."
+msgstr[1] "%s posts atualizados."
+
+#: wp-admin/edit.php:241
+msgid "%s item not updated, somebody is editing it."
+msgid_plural "%s items not updated, somebody is editing them."
+msgstr[0] "item %s não atualizado, ele está sendo editado por outra pessoa."
+msgstr[1] "%s itens não atualizados, eles estão sendo editados por outra pessoa."
+
+#: wp-admin/edit.php:245
+msgid "Item permanently deleted."
+msgid_plural "%s items permanently deleted."
+msgstr[0] "Item excluído permanentemente."
+msgstr[1] "%s itens excluídos permanentemente."
+
+#: wp-admin/edit.php:249
+msgid "Item moved to the Trash."
+msgid_plural "%s items moved to the Trash."
+msgstr[0] "Item movido para a Lixeira."
+msgstr[1] "%s Itens movidos para a Lixeira."
+
+#: wp-admin/edit.php:255
+msgid "Item restored from the Trash."
+msgid_plural "%s items restored from the Trash."
+msgstr[0] "Item restaurado da Lixeira."
+msgstr[1] "%s itens restaurados da Lixeira."
+
+#: wp-admin/export.php:13
+msgid "You do not have sufficient permissions to export the content of this site."
+msgstr "Sem permissões suficientes para exportar conteúdo deste site."
+
+#: wp-admin/export.php:17 wp-admin/menu.php:204
+msgid "Export"
+msgstr "Exportar"
+
+#: wp-admin/export.php:49
+msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status."
+msgstr "Você pode exportar um arquivo do conteudo do seu site para importar em outra instalação ou plataforma. O arquivo exportado será um arquivo em formato XML chamado WXR. Posts, páginas, comentários, campos personalizados, categorias e tags podem ser incluídos. Você pode escolher para que o arquivo WXR inclua apenas alguns posts ou páginas definindo os filtros nos menus e assim limitar a exportação por categoria, autor, intervalo de tempo por mês ou status de publicação."
+
+#: wp-admin/export.php:50
+msgid "Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format."
+msgstr "Uma vez criado, o arquivo WXR pode ser importado por qualquer outro site WordPress ou por outra plataforma capaz de ler este formato."
+
+#: wp-admin/export.php:55
+msgid "<a href=\"http://codex.wordpress.org/Tools_Export_Screen\" target=\"_blank\">Documentation on Export</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Exportar\" target=\"_blank\">Documentação sobre Exportar</a>"
+
+#: wp-admin/export.php:133
+msgid "When you click the button below WordPress will create an XML file for you to save to your computer."
+msgstr "Quando você clicar no botão abaixo, o WordPress irá criar um arquivo XML para você salvar em seu computador."
+
+#: wp-admin/export.php:134
+msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
+msgstr "Este formato, ao qual chamamos WordPress eXtended RSS ou WXR, irá conter os seus posts, páginas, comentários, campos personalizados, categorias e tags."
+
+#: wp-admin/export.php:135
+msgid "Once you&#8217;ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site."
+msgstr "Uma vez que salvar o arquivo de download, você pode usar a função de Importação em outra instalação do WordPress, para importar o conteúdo deste site."
+
+#: wp-admin/export.php:137
+msgid "Choose what to export"
+msgstr "Selecione o que exportar"
+
+#: wp-admin/export.php:140
+msgid "All content"
+msgstr "Todo conteúdo"
+
+#: wp-admin/export.php:141
+msgid "This will contain all of your posts, pages, comments, custom fields, terms, navigation menus and custom posts."
+msgstr "Conterá todos os seus posts, páginas, comentários, campos personalizados, termos, menus de navegação e posts personalizados."
+
+#: wp-admin/export.php:143 wp-admin/includes/class-wp-terms-list-table.php:108
+#: wp-admin/includes/class-wp-users-list-table.php:169 wp-admin/menu.php:49
+msgid "Posts"
+msgstr "Posts"
+
+#: wp-admin/export.php:146
+msgid "Categories:"
+msgstr "Categorias:"
+
+#: wp-admin/export.php:150 wp-admin/export.php:182
+msgid "Authors:"
+msgstr "Autores:"
+
+#: wp-admin/export.php:157 wp-admin/export.php:189
+msgid "Date range:"
+msgstr "Faixa de data:"
+
+#: wp-admin/export.php:159 wp-admin/export.php:191
+msgid "Start Date"
+msgstr "Data Inicial"
+
+#: wp-admin/export.php:163 wp-admin/export.php:195
+msgid "End Date"
+msgstr "Data Final"
+
+#: wp-admin/export.php:168 wp-admin/export.php:200
+#: wp-admin/includes/meta-boxes.php:58
+msgid "Status:"
+msgstr "Status:"
+
+#: wp-admin/export.php:216
+msgid "Download Export File"
+msgstr "Download do arquivo de exportação"
+
+#: wp-admin/freedoms.php:36
+msgid "WordPress is Free and open source software, built by a distributed community of mostly volunteer developers from around the world. WordPress comes with some awesome, worldview-changing rights courtesy of its <a href=\"%s\">license</a>, the GPL."
+msgstr "O WordPress é um software livre e gratuito, construído por uma comunidade distribuída, composta na maior parte de desenvolvedores voluntários, ao redor do mundo. O WordPress vem com uma impressionante e revolucionária cortesia de direitos de sua <a href=\"%s\">licença</a>, a GPL."
+
+#: wp-admin/freedoms.php:39
+msgid "You have the freedom to run the program, for any purpose."
+msgstr "Você tem a liberdade de executar o programa, para qualquer finalidade."
+
+#: wp-admin/freedoms.php:40
+msgid "You have access to the source code, the freedom to study how the program works, and the freedom to change it to make it do what you wish."
+msgstr "Você tem acesso ao código-fonte, a liberdade de estudar como o programa funciona e a liberdade de alterá-lo para ele fazer o que você deseja."
+
+#: wp-admin/freedoms.php:41
+msgid "You have the freedom to redistribute copies of the original program so you can help your neighbor."
+msgstr "Você tem a liberdade de redistribuir cópias do programa original para ajudar ao seu próximo."
+
+#: wp-admin/freedoms.php:42
+msgid "You have the freedom to distribute copies of your modified versions to others. By doing this you can give the whole community a chance to benefit from your changes."
+msgstr "Você tem a liberdade de distribuir cópias de suas versões modificadas para os outros. Ao fazer isso você pode dar a comunidade toda a oportunidade de se beneficiar de suas alterações."
+
+#: wp-admin/freedoms.php:45
+msgid "WordPress grows when people like you tell their friends about it, and the thousands of businesses and services that are built on and around WordPress share that fact with their users. We&#8217;re flattered every time someone spreads the good word, just make sure to <a href=\"%s\">check out our trademark guidelines</a> first."
+msgstr "O WordPress cresce quando pessoas como você diz a seus amigos sobre ele e quando os milhares de empresas e serviços, que são construídos sobre e ao redor do WordPress, compartilham esse fato com seus usuários. Ficamos lisonjeados cada vez que alguém espalha a boa palavra, apenas certifique-se de antes <a href=\"%s\">conferir nossas diretrizes da marca</a>."
+
+#: wp-admin/freedoms.php:52
+msgid "Every plugin and theme in WordPress.org&#8217;s directory is 100%% GPL or a similarly free and compatible license, so you can feel safe finding <a href=\"%1$s\">plugins</a> and <a href=\"%2$s\">themes</a> there. If you get a plugin or theme from another source, make sure to <a href=\"%3$s\">ask them if it&#8217;s GPL</a> first. If they don&#8217;t respect the WordPress license, we don&#8217;t recommend them."
+msgstr "Todo plugin e tema no diretório WordPress.org é 100%% GPL ou possui uma licença similarmente gratuita e compatível, portanto, sinta-se seguro para encontrar <a href=\"%1$s\">plugins</a> e <a href=\"%2$s\">temas</a> lá. Se você obtiver um plugin ou tema a partir de outra fonte, certifique-se de <a href=\"%3$s\">perguntar se a licença é GPL</a> primeiro. Se não respeitarem a licença do WordPress, nós não os recomendamos."
+
+#: wp-admin/freedoms.php:54
+msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For more information, check out the <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
+msgstr "Você não gostaria que todo software viesse com essas liberdades? Nós também! Para obter mais informações, confira a <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
+
+#: wp-admin/import.php:15
+msgid "You do not have sufficient permissions to import content in this site."
+msgstr "Sem permissões suficientes para importar conteúdo para este site."
+
+#: wp-admin/import.php:22
+msgid "This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform."
+msgstr "Esta tela lista links para plugins que importam dados de outros blogs/plataformas gerenciadoras de conteúdo. Escolha a plataforma da qual deseja importar dados e clique em Instalar Agora quando solicitado. Se sua plataforma não está listada, clique no link para navegar para o repositório de plugins e pesquisar por outro plugin para sua plataforma."
+
+#: wp-admin/import.php:23
+msgid "In previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently."
+msgstr "Em vesões prévias do WordPress, todos os importadores eram embutidos. Agora eles se tornaram plugins já que são usados só de vez em quando."
+
+#: wp-admin/import.php:28
+msgid "<a href=\"http://codex.wordpress.org/Tools_Import_Screen\" target=\"_blank\">Documentation on Import</a>"
+msgstr "<a href=\"http://codex.wordpress.org/pt-br:Painel_Importar\" target=\"_blank\">Documentação sobre Importação</a>"
+
+#: wp-admin/import.php:58 wp-admin/users.php:222
+msgid "ERROR:"
+msgstr "ERRO:"
+
+#: wp-admin/import.php:58
+msgid "The <strong>%s</strong> importer is invalid or is not installed."
+msgstr "O importador <strong>%s</strong> é inválido ou não está instalado."
+
+#: wp-admin/import.php:60
+msgid "If you have posts or comments in another system, WordPress can import those into this site. To get started, choose a system to import from below:"
+msgstr "Se você possui posts ou comentários em outro sistema, o WordPress pode importá-los para este site. Para começar, escolha um sistema do qual importar abaixo:"
+
+#: wp-admin/import.php:76
+msgid "No importers are available."
+msgstr "Nenhum dos importadores estão disponíveis."
+
+#: wp-admin/import.php:95
+msgid "Activate importer"
+msgstr "Ativar o importador"
+
+#: wp-admin/import.php:102
+msgid "Install importer"
+msgstr "Instale o importador"
+
+#: wp-admin/import.php:105
+msgid "This importer is not installed. Please install importers from <a href=\"%s\">the main site</a>."
+msgstr "Este importador não está instalado. Instale os importadores a partir do <a href=\"%s\">site principal</a>."
+
+#: wp-admin/import.php:126
+msgid "If the importer you need is not listed, <a href=\"%s\">search the plugin directory</a> to see if an importer is available."
+msgstr "Se o importador que você precisa não estiver listado, <a href=\"%s\">pesquise no diretório de plugins</a> para ver se algum importador está disponível."
+
+#: wp-admin/includes/ajax-actions.php:19
+msgid "<strong>ALERT: You are logged out!</strong> Could not save draft. <a href=\"%s\" target=\"_blank\">Please log in again.</a>"
+msgstr "<strong>ALERTA: A sessão expirou!</strong> Não foi possível salvar o rascunho. <a href=\"%s\" target=\"_blank\">Faça o login novamente.</a>"
+
+#: wp-admin/includes/ajax-actions.php:182
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: wp-admin/includes/ajax-actions.php:267
+#: wp-admin/includes/class-wp-list-table.php:490
+#: wp-admin/includes/class-wp-list-table.php:894
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 item"
+msgstr[1] "%s itens"
+
+#: wp-admin/includes/ajax-actions.php:525
+msgid "Comment %d does not exist"
+msgstr "O comentário %d não existe"
+
+#: wp-admin/includes/ajax-actions.php:602
+#: wp-admin/includes/ajax-actions.php:1532
+msgid "An error has occurred. Please reload the page and try again."
+msgstr "Ocorreu um erro. Recarregue esta página e tente novamente."
+
+#: wp-admin/includes/ajax-actions.php:654
+msgid "No tags found!"
+msgstr "Nenhuma tag encontrada!"
+
+#: wp-admin/includes/ajax-actions.php:726
+msgid "ERROR: you are replying to a comment on a draft post."
+msgstr "ERRO: você está respondendo a um comentário num rascunho de post."
+
+#: wp-admin/includes/ajax-actions.php:742
+msgid "Sorry, you must be logged in to reply to a comment."
+msgstr "Você precisa estar conectado para responder um comentário."
+
+#: wp-admin/includes/ajax-actions.php:746
+#: wp-admin/includes/ajax-actions.php:808
+msgid "ERROR: please type a comment."
+msgstr "ERRO: escreva um comentário."
+
+#: wp-admin/includes/ajax-actions.php:939
+#: wp-admin/includes/ajax-actions.php:944
+#: wp-admin/includes/ajax-actions.php:964
+msgid "Please provide a custom field value."
+msgstr "Forneça um valor ao campo personalizado."
+
+#: wp-admin/includes/ajax-actions.php:962
+msgid "Please provide a custom field name."
+msgstr "Informe um nome para o campo personalizado."
+
+#: wp-admin/includes/ajax-actions.php:1019
+msgid "User <a href=\"#%s\">%s</a> added"
+msgstr "Usuário <a href=\"#%s\">%s</a> adicionado"
+
+#: wp-admin/includes/ajax-actions.php:1042
+msgid "g:i:s a"
+msgstr "G:i:s"
+
+#: wp-admin/includes/ajax-actions.php:1044
+msgid "Draft saved at %s."
+msgstr "Rascunho salvo às %s."
+
+#: wp-admin/includes/ajax-actions.php:1048
+msgid "Your login has expired. Please open a new browser window and <a href=\"%s\" target=\"_blank\">log in again</a>. "
+msgstr "Seu login expirou. Abra uma nova janela do navegador e <a href=\"%s\" target=\"_blank\"> faça login novamente </a>."
+
+#: wp-admin/includes/ajax-actions.php:1062
+#: wp-admin/includes/ajax-actions.php:1322
+msgid "Someone"
+msgstr "Alguém"
+
+#: wp-admin/includes/ajax-actions.php:1063
+msgid "Autosave disabled."
+msgstr "Salvamento automático desativado."
+
+#: wp-admin/includes/ajax-actions.php:1066
+msgid "%s is currently editing this article. If you update it, you will overwrite the changes."
+msgstr "%s está editando este artigo. Se você atualizá-lo, irá substituir as alterações."
+
+#: wp-admin/includes/ajax-actions.php:1071
+#: wp-admin/includes/ajax-actions.php:1314 wp-admin/includes/post.php:166
+#: wp-admin/includes/post.php:1284
+msgid "You are not allowed to edit this page."
+msgstr "Sem permissão para editar esta página."
+
+#: wp-admin/includes/ajax-actions.php:1074
+#: wp-admin/includes/ajax-actions.php:1317 wp-admin/includes/post.php:168
+#: wp-admin/includes/post.php:1287 wp-admin/press-this.php:35
+#: wp-admin/upload.php:62
+msgid "You are not allowed to edit this post."
+msgstr "Sem permissão para editar este post."
+
+#: wp-admin/includes/ajax-actions.php:1323
+msgid "Saving is disabled: %s is currently editing this page."
+msgstr "Salvamento automático desativado: %s está editando esta página agora."
+
+#: wp-admin/includes/ajax-actions.php:1323
+msgid "Saving is disabled: %s is currently editing this post."
+msgstr "Salvamento automático desativado: %s está editando este post agora."
+
+#: wp-admin/includes/ajax-actions.php:1442
+#: wp-admin/includes/class-wp-posts-list-table.php:285
+#: wp-admin/includes/class-wp-posts-list-table.php:758
+msgid "Date"
+msgstr "Data"
+
+#: wp-admin/includes/ajax-actions.php:1452
+#: wp-admin/includes/class-wp-posts-list-table.php:601
+#: wp-admin/includes/class-wp-posts-list-table.php:965
+#: wp-admin/includes/meta-boxes.php:69 wp-admin/includes/meta-boxes.php:92
+msgid "Scheduled"
+msgstr "Agendado"
+
+#: wp-admin/includes/ajax-actions.php:1736
+msgid "Save failed"
+msgstr "Falha ao salvar"
+
+#: wp-admin/includes/bookmark.php:193
+msgid "Could not update link in the database"
+msgstr "Não foi possível atualizar o link no banco de dados"
+
+#: wp-admin/includes/bookmark.php:200
+msgid "Could not insert link into the database"
+msgstr "Não foi possível inserir o link no banco de dados"
+
+#: wp-admin/includes/bookmark.php:285
+msgid "If you are looking to use the link manager, please install the <a href=\"%s\">Link Manager</a> plugin."
+msgstr "Se você quiser usar o gerenciador de links, instale o plugin <a href=\"%s\">Gerenciador de Links</a>."
+
+#: wp-admin/includes/bookmark.php:288 wp-admin/link-manager.php:12
+#: wp-admin/link-manager.php:67
+msgid "You do not have sufficient permissions to edit the links for this site."
+msgstr "Sem permissões suficientes para editar links neste site."
+
+#: wp-admin/includes/class-wp-comments-list-table.php:135
+msgid "No comments awaiting moderation."
+msgstr "Nenhum comentário aguardando moderação."
+
+#: wp-admin/includes/class-wp-comments-list-table.php:137
+msgid "No comments found."
+msgstr "Nenhum comentário encontrado."
+
+#: wp-admin/includes/class-wp-comments-list-table.php:148
+msgctxt "comments"
+msgid "All"
+msgid_plural "All"
+msgstr[0] "Todos"
+msgstr[1] "Todos"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:149
+msgid "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgid_plural "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[0] "Pendente <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[1] "Pendentes <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:150
+msgid "Approved"
+msgid_plural "Approved"
+msgstr[0] "Aprovado"
+msgstr[1] "Aprovados"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:151
+msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[0] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] "Spams <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:152
+msgid "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid_plural "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[0] "Lixo <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[1] "Lixos <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:190
+#: wp-admin/includes/class-wp-comments-list-table.php:399
+#: wp-admin/includes/class-wp-comments-list-table.php:404
+#: wp-admin/includes/dashboard.php:684
+msgid "Unapprove"
+msgstr "Rejeitar"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:192
+#: wp-admin/includes/class-wp-comments-list-table.php:401
+#: wp-admin/includes/class-wp-comments-list-table.php:403
+#: wp-admin/includes/dashboard.php:683
+msgid "Approve"
+msgstr "Aprovar"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:194
+msgctxt "comment"
+msgid "Mark as Spam"
+msgstr "Marcar como spam"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:199
+#: wp-admin/includes/class-wp-comments-list-table.php:410
+msgctxt "comment"
+msgid "Not Spam"
+msgstr "Não é spam"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:217
+msgid "Show all comment types"
+msgstr "Mostrar todos os tipos de comentários"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:221
+#: wp-admin/includes/class-wp-posts-list-table.php:927
+msgid "Pings"
+msgstr "Pings"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:230
+#: wp-admin/includes/class-wp-links-list-table.php:72
+#: wp-admin/includes/class-wp-media-list-table.php:95
+#: wp-admin/includes/class-wp-posts-list-table.php:218
+msgid "Filter"
+msgstr "Filtrar"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:235
+msgid "Empty Spam"
+msgstr "Esvaziar o spam"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:235
+#: wp-admin/includes/class-wp-media-list-table.php:101
+#: wp-admin/includes/class-wp-posts-list-table.php:222
+msgid "Empty Trash"
+msgstr "Esvaziar a lixeira"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:258
+#: wp-admin/includes/class-wp-comments-list-table.php:534
+msgctxt "column name"
+msgid "Comment"
+msgstr "Comentário"
+
+#: wp-admin/includes/class-wp-comments-list-table.php:261
+msgctxt "column name"
+msgid "In Response To"
+msgstr "Em resposta à"
