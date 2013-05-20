@@ -208,9 +208,11 @@ class P2Ajax {
 		$user           = wp_get_current_user();
 		$user_id        = $user->ID;
 		$post_content   = $_POST['posttext'];
-		$tags           = trim( $_POST['tags'] );
+		$tags           = explode(',', trim( $_POST['tags'] ));
 		$title          = $_POST['post_title'];
 		$post_type      = isset( $_POST['post_type'] ) ? $_POST['post_type'] : 'post';
+		
+		$newtags = remove_non_editor_tags($tags);
 
 		// Strip placeholder text for tags
 		if ( __( 'Tag it', 'p2' ) == $tags )
@@ -236,7 +238,7 @@ class P2Ajax {
 			'post_title'    => $post_title,
 			'post_content'  => $post_content,
 			'post_type'     => 'post',
-			'tags_input'    => $tags,
+			'tags_input'    => $newtags,
 			'post_status'   => 'publish'
 		) );
 

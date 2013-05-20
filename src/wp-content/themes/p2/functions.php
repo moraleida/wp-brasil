@@ -493,7 +493,9 @@ function p2_new_post_noajax() {
 
 	$user_id        = $current_user->ID;
 	$post_content   = $_POST['posttext'];
-	$tags           = $_POST['tags'];
+	$tags           = explode(',', trim( $_POST['tags'] ));
+
+	$newtags = remove_non_editor_tags($tags);
 
 	$post_title = p2_title_from_content( $post_content );
 
@@ -501,7 +503,7 @@ function p2_new_post_noajax() {
 		'post_author'   => $user_id,
 		'post_title'    => $post_title,
 		'post_content'  => $post_content,
-		'tags_input'    => $tags,
+		'tags_input'    => $newtags,
 		'post_status'   => 'publish'
 	) );
 
@@ -724,3 +726,21 @@ function p2_wp_title( $title, $sep ) {
 	return $title;
 }
 add_filter( 'wp_title', 'p2_wp_title', 10, 2 );
+
+
+function remove_non_editor_tags($tags) {
+
+// Strips non-existing tags if user isn't an Editor
+	foreach($tags as $t) {
+		if(term_exists( $t, 'post_tag' )) {
+			$newtags[] = $t;
+		} else if(current_user_can( 'edit_pages' )) {
+			$newtags[] = $t;
+		} else {
+			// vai brincar lá fora, vai?
+		}
+			
+	}
+
+	return $newtags;
+}
