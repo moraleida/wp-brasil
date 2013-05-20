@@ -24,3 +24,6 @@ catraca-files-producao/
 *~
 *.swp
 *.swo
+
+# Vagrant
+.vagrant
